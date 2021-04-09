@@ -23,10 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12f93b5b-fa3c-4f60-94e0-1c98e990eea1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/sandbox/PointTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/stqa/pft/sandbox/FirstProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/stqa/pft/sandbox/FirstProgram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/FirstProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/FirstProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/sandbox-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/sandbox-1.0-SNAPSHOT.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/sandbox-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/sandbox-1.0-SNAPSHOT.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/sandbox-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/sandbox-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/sandbox" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/sandbox" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/sandbox.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/sandbox.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +44,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sandbox" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,7 +103,7 @@
       <recent name="ru.stqa.pft.sandbox" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FirstProgram">
     <configuration name="FirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.FirstProgram" />
       <module name="sandbox.main" />
@@ -95,8 +122,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PointTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.sandbox.PointTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PointTests.tesDistance" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.sandbox.PointTests.tesDistance&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PointTests.tesDistanceZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.sandbox.PointTests.tesDistanceZero&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PointTests.tesDistanceZero" />
+        <item itemvalue="Gradle.PointTests.tesDistance" />
+        <item itemvalue="Gradle.PointTests" />
         <item itemvalue="Application.FirstProgram" />
       </list>
     </recent_temporary>
@@ -109,7 +196,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617964061322</updated>
-      <workItem from="1617964062591" duration="1771000" />
+      <workItem from="1617964062591" duration="2789000" />
+      <workItem from="1617975391408" duration="1077000" />
+      <workItem from="1617976513962" duration="892000" />
     </task>
     <servers />
   </component>
@@ -126,6 +215,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="233" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1617964377539">
@@ -136,25 +226,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="495" y="322" width="454" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617964382333" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1617973821412">
+    <state width="1398" height="343" key="GridCell.Tab.0.bottom" timestamp="1617977326637">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617964424032" />
+    <state width="1398" height="343" key="GridCell.Tab.0.bottom/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617977326637" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617973821412" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1617973821411">
+    <state width="1398" height="343" key="GridCell.Tab.0.center" timestamp="1617977326635">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617964424030" />
+    <state width="1398" height="343" key="GridCell.Tab.0.center/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617977326635" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1617973821411" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1617973821410">
+    <state width="1398" height="343" key="GridCell.Tab.0.left" timestamp="1617977326633">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617964424028" />
+    <state width="1398" height="343" key="GridCell.Tab.0.left/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617977326633" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1617973821410" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1617973821412">
+    <state width="1398" height="343" key="GridCell.Tab.0.right" timestamp="1617977326636">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617964424031" />
+    <state width="1398" height="343" key="GridCell.Tab.0.right/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617977326636" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1617973821412" />
   </component>
 </project>

@@ -82,7 +82,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\sandbox-1.0-SNAPSHOT.jar
+set CLASSPATH=%APP_HOME%\lib\sandbox-1.0-SNAPSHOT.jar;%APP_HOME%\lib\testng-7.4.0.jar;%APP_HOME%\lib\jcommander-1.78.jar;%APP_HOME%\lib\jquery-3.5.1.jar
 
 @rem Execute sandbox
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SANDBOX_OPTS%  -classpath "%CLASSPATH%" ru.stqa.pft.sandbox.FirstProgram %CMD_LINE_ARGS%
