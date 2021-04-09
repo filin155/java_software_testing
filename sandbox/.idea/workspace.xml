@@ -23,12 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12f93b5b-fa3c-4f60-94e0-1c98e990eea1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FirstProgram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/sandbox-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/sandbox-1.0-SNAPSHOT.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/sandbox-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/sandbox-1.0-SNAPSHOT.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/sandbox-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/sandbox-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/FirstProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/stqa/pft/sandbox/FirstProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/stqa/pft/sandbox/FirstProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/FirstProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/FirstProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -104,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617964061322</updated>
-      <workItem from="1617964062591" duration="391000" />
+      <workItem from="1617964062591" duration="1771000" />
     </task>
     <servers />
   </component>
@@ -131,21 +136,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="495" y="322" width="454" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617964382333" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1617964424032">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1617973821412">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617964424032" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1617964424030">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617973821412" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1617973821411">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617964424030" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1617964424028">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1617973821411" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1617973821410">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617964424028" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1617964424031">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1617973821410" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1617973821412">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617964424031" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1617973821412" />
   </component>
 </project>
