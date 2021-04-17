@@ -19,6 +19,7 @@ public class GroupCreationTests {
   public void testGroupCreation() throws Exception {
     wd.get("http://localhost/addressbook/index.php");
     wd.get("http://localhost/addressbook/index.php");
+    wd.get("http://localhost/addressbook/index.php");
     wd.findElement(By.name("user")).clear();
     wd.findElement(By.name("user")).sendKeys("admin");
     wd.findElement(By.name("pass")).click();
