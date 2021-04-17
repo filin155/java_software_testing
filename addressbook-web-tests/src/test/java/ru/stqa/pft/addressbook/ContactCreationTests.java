@@ -12,7 +12,7 @@ public class ContactCreationTests {
     private WebDriver driver;
 
 
-    @BeforeClass(alwaysRun = true)
+    @BeforeMethod(alwaysRun = true)
     public void setUp() throws Exception {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -85,7 +85,7 @@ public class ContactCreationTests {
         driver.findElement(By.linkText("add new")).click();
     }
 
-    @AfterClass(alwaysRun = true)
+    @AfterMethod(alwaysRun = true)
     public void tearDown() throws Exception {
         driver.quit();
     }
