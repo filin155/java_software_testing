@@ -30,7 +30,7 @@ public class GroupCreationTests {
   public void testGroupCreation() throws Exception {
     gotoGroupsPages();
     initGroupCreation();
-    fillGroupForm(new GroupData("test12", "test2", "test3"));
+    fillGroupForm(new GroupData("test1", "test2", "test3"));
     submitGroupCreation();
     returnGroupPage();
     logout();
@@ -39,6 +39,7 @@ public class GroupCreationTests {
   private void logout() {
     wd.findElement(By.linkText("Logout")).click();
   }
+
 
   private void returnGroupPage() {
     wd.findElement(By.linkText("group page")).click();
