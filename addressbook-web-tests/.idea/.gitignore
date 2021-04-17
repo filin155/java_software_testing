@@ -1,8 +1,7 @@
 # Default ignored files
 /shelf/
 workspace.xml/
-build/*
-!build/build.xml
+build/
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
