@@ -30,7 +30,7 @@ public class GroupCreationTests {
   public void testGroupCreation() throws Exception {
     gotoGroupsPages();
     initGroupCreation();
-    fillGroupForm(new GroupData("test1", "test2", "test3"));
+    fillGroupForm(new GroupData("test12", "test2", "test3"));
     submitGroupCreation();
     returnGroupPage();
     logout();
