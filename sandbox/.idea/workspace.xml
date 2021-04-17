@@ -23,6 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12f93b5b-fa3c-4f60-94e0-1c98e990eea1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +33,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../addressbook-web-tests">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
@@ -84,8 +89,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../addressbook-web-tests/build.gradle" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
@@ -93,13 +101,38 @@
       <recent name="ru.stqa.pft.sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PointTests.tesDistanceZeroDistance">
-    <configuration name="FirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.FirstProgram" />
-      <module name="sandbox.main" />
+  <component name="RunManager" selected="Gradle.GroupCreationTests">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="GroupCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../addressbook-web-tests" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.GroupCreationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="PointTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -179,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GroupCreationTests" />
         <item itemvalue="Gradle.PointTests.tesDistanceZeroDistance" />
         <item itemvalue="Gradle.PointTests" />
         <item itemvalue="Gradle.PointTests.tesDistanceZero" />
         <item itemvalue="Gradle.PointTests.tesDistance" />
-        <item itemvalue="Application.FirstProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +231,10 @@
       <workItem from="1617964062591" duration="2789000" />
       <workItem from="1617975391408" duration="1077000" />
       <workItem from="1617976513962" duration="2091000" />
+      <workItem from="1618656631631" duration="858000" />
+      <workItem from="1618657795808" duration="185000" />
+      <workItem from="1618658012761" duration="467000" />
+      <workItem from="1618658593765" duration="638000" />
     </task>
     <servers />
   </component>
@@ -225,25 +262,33 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="495" y="322" width="454" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1617964382333" />
-    <state width="1398" height="324" key="GridCell.Tab.0.bottom" timestamp="1618222718817">
+    <state x="508" y="166" key="FileChooserDialogImpl" timestamp="1618656643079">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="508" y="166" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1618656643079" />
+    <state width="1398" height="361" key="GridCell.Tab.0.bottom" timestamp="1618659267220">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="324" key="GridCell.Tab.0.bottom/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1618222718817" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617973821412" />
-    <state width="1398" height="324" key="GridCell.Tab.0.center" timestamp="1618222718815">
+    <state width="1398" height="361" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1618659267220" />
+    <state width="1398" height="361" key="GridCell.Tab.0.center" timestamp="1618659267219">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="324" key="GridCell.Tab.0.center/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1618222718815" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1617973821411" />
-    <state width="1398" height="324" key="GridCell.Tab.0.left" timestamp="1618222718812">
+    <state width="1398" height="361" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1618659267219" />
+    <state width="1398" height="361" key="GridCell.Tab.0.left" timestamp="1618659267219">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="324" key="GridCell.Tab.0.left/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1618222718812" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1617973821410" />
-    <state width="1398" height="324" key="GridCell.Tab.0.right" timestamp="1618222718816">
+    <state width="1398" height="361" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1618659267219" />
+    <state width="1398" height="361" key="GridCell.Tab.0.right" timestamp="1618659267220">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="324" key="GridCell.Tab.0.right/0.0.1440.900/-533.-1440.2560.1440@0.0.1440.900" timestamp="1618222718816" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1617973821412" />
+    <state width="1398" height="361" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1618659267220" />
+    <state x="232" y="63" key="SettingsEditor" timestamp="1618656852546">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="232" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1618656852546" />
   </component>
 </project>
