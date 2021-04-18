@@ -27,4 +27,16 @@ public class ContactHelper extends HelperBase {
         type(By.name("home"), contactData.getHome());
 
     }
+
+    public void selectContact() {
+        click(By.name("selected[]"));
+    }
+
+    public void deleteSelectionContact() {
+        click(By.xpath("//input[@value='Delete']"));
+    }
+
+    public void closeDialogWindow() {
+        wd.switchTo().alert().accept();
+    }
 }
